@@ -121,6 +121,7 @@ public class book extends HttpServlet {
 		catch(Exception e)
 		{
 			out.println(e);
+			out.println("Error");
 		}
 		finally
 		{
